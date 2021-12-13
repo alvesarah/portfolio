@@ -20,7 +20,7 @@
                 <span>fechar</span>
             </div>
 
-            <header>
+            <header id="home">
                 <div class="img-wrapper">
                     <img src="./imagens/header-medio.jpg" alt="Background do header">
                 </div>
@@ -34,13 +34,13 @@
                 <nav>
                     <ul class="menu">
                         <li class="menu-item">
-                            <a href="" class="menu-link">Home</a>
+                            <a href="#home" class="menu-link">Home</a>
                         </li>
                         <li class="menu-item">
-                            <a href="" class="menu-link">Conhecimentos</a>
+                            <a href="#conhecimentos" class="menu-link">Conhecimentos</a>
                         </li>
                         <li class="menu-item">
-                            <a href="" class="menu-link">Projetos</a>
+                            <a href="#projetos" class="menu-link">Projetos</a>
                         </li>
                         <li class="menu-item">
                             <a href="" class="menu-link">Contato</a>
@@ -57,7 +57,7 @@
                 </div>
             </aside>
             <main>
-                <section class="sessao-conhecimentos">
+                <section class="sessao-conhecimentos" id="conhecimentos">
                     <div class="sessao-header">
                         <h1>Conhecimentos</h1>
                     <div>
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="sessao-projetos">
+                <section class="sessao-projetos" id="projetos">
                     <div class="sessao-header">
                         <h1>Projetos</h1>
                     </div>
@@ -163,8 +163,22 @@
                 </section>
             </main>
             <footer>
-                
+                <div class="footer-content">
+                    <p>
+                        copyriright &copy; 2021, ETECIA DS - Todos os direitos reservados
+                    </p>
+                    <div class="social-list">
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </footer>
+            <a href="#home" id="link-topo">
+                <i class="fas fa-arrow-up"></i>
+            </a>
             <script src="./script.js"></script>
         </div>
     </body>

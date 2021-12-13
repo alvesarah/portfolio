@@ -15,6 +15,10 @@
     --font-action: 'Mulish', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     width: 100%;
     height: 100vh;
@@ -356,6 +360,7 @@ header{
     width: 18rem;
     height: 25rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .card-img-wrapper{
@@ -430,6 +435,55 @@ header{
     bottom: 2rem;
     opacity: 1;
     visibility: visible;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #17181B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: #A7A7A7;
+    font-size: 1.2rem;
+}
+
+.social-list ul{
+    display: flex;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color: #A7A7A7;
+    font-size: 1.3rem;
+}
+
+#link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #FF0099;
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);
+    background: linear-gradient(to right, #493240, #FF0099);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 0 .4rem .6rem #00000009;
 }
 
 /* RESPONSIVO */
